@@ -1,0 +1,85 @@
+page:
+  layout: portrait
+  margin: [3.9cm, 1.32cm, 3.67cm, 1.9cm]
+  size: A4
+font:
+  catalog:
+    yorha:
+      normal: fortunecity-Normal.ttf
+      bold: fortunecity-Bold.ttf
+      italic: fortunecity-Italic.ttf
+      bold_italic: fortunecity-Bold-Italic.ttf
+base:
+  font_color: #333333
+  font_family: Times-Roman
+  font_size: 12
+  line_height_length: 17
+  line_height: $base_line_height_length / $base_font_size
+vertical_spacing: $base_line_height_length
+table:
+  body:
+    stripe_background_color: #ffffff
+heading:
+  font_color: #262626
+  font_size: 17
+  font_style: bold
+  line_height: 1.2
+  margin_bottom: $vertical_spacing
+link:
+  font_color: #002FA7
+outline_list:
+  indent: $base_font_size * 1.5
+  item_spacing: 2
+title_page:
+  align: left
+  title:
+    font_size: 24
+    font_family: yorha
+    margin_top: 90
+  background_color: #ffffff
+header:
+  height: 3.00cm
+  line_height: 1
+  image_vertical_align: 10 # (1)
+  padding: [15,0,0,0]
+  recto:
+    columns: 12% 80% 10%
+    left:
+      content: image:tbz_logo.jpg[width=60px]
+    center:
+      content: |
+        *Technische Berufsschule Zürich* +
+        Höhere Fachschule +
+        {ntitle}
+      align: left
+    right:
+      content: '{page-number}'
+  verso:
+    columns: 12% 80% 10%
+    left:
+      content: image:tbz_logo.jpg[width=60px]
+    center:
+      content: |
+        *Technische Berufsschule Zürich* +
+        Höhere Fachschule +
+        {ntitle}
+      align: left
+    right:
+      content: '{page-number}'
+footer:
+  height: 3.00cm
+  line_height: 1
+  recto:
+    left:
+      content: '{subtitle}'
+    center:
+      content: '{class}'
+    right:
+      content: '{author}'
+  verso:
+    left:
+      content: '{subtitle}'
+    center:
+      content: '{class}'
+    right:
+      content: '{author}'

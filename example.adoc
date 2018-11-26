@@ -1,0 +1,15 @@
+= | Title: Subtitle
+{Firstname Lastname <mail@domain.com>
+:doctype: pdf
+:author: Firstname Lastname
+:subtitle: Subtitle
+:ntitle: | Title: {subtitle}
+:imagesdir: ./images
+:class: classname
+:pdf-stylesdir: ./resources/themes
+:pdf-fontsdir: ./resources/fonts
+:pdf-style: tbz
+:allow-uri-read:
+:sectnums:
+:toc:
+:toc-title: Index
