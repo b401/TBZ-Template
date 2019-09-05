@@ -50,7 +50,7 @@ title_page:
     line_height: 5
   background_color: #ffffff
 header:
-  height: 3.00cm
+  height: 21.00cm
   line_height: 1
   image_vertical_align: 10 # (1)
   padding: [15,0,0,0]
@@ -83,14 +83,14 @@ footer:
   line_height: 1
   recto:
     left:
-      content: '{subtitle}'
+      content: '{title}'
     center:
       content: '{class}'
     right:
       content: '{author}'
   verso:
     left:
-      content: '{toc-subtitle}'
+      content: '{title}'
     center:
       content: '{class}'
     right:
